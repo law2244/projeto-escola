@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Poppins:wght@500;700&family=Red+Hat+Text:wght@700&family=Roboto:ital,wght@0,700;1,400&family=Rubik:ital,wght@0,400;0,500;1,700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+header img{
+    margin-top: 1rem;
+    width: 200px;
+    height: 200px;
+}
+.sobAreceita{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+.sobAreceita  h1 > span{
+    text-transform: capitalize;
+    font-size: 2rem;
+    background-color: #FE7737;
+    padding: 10px 20px;
+    color: #fff;
+    clip-path: polygon(2% 2%, 98% 4%, 96% 97%, 0 100%);
+}
+.sobAreceita p{
+    font-size: 16px;
+    text-align: start;
+    margin-top: 2rem ;
+    color: #7B797A ;
+    line-height: 24px;
+    padding: 0 5px;
+}
+.sobAreceita fieldset{
+    border: 2px solid #FE7737 ;
+    border-radius: 10px;
+    margin-top: 2rem;
+
+}
+.sobAreceita fieldset legend{
+    font-size: 1.2rem ;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    color: #FE7737;
+}
+.sobAreceita fieldset ul > li i {
+    margin-right: 10px;
+}
+.sobAreceita fieldset ol > li span{
+    display: inline-block;
+}
+.sobAreceita fieldset ol > li{
+    color: #7B797A ;
+    margin-bottom: 1rem ;
+    margin-bottom: 1rem;
+    display: flex;
+    word-wrap: break-word;
+}
+.sobAreceita fieldset ul > li {
+    color: #7B797A ;
+    margin-bottom: 1rem ;
+    margin-bottom: 1rem;
+    list-style: none;
+    display: flex;
+    word-wrap: break-word;
+}
+.sobAreceita fieldset ul > li span ,
+.sobAreceita fieldset ol > li span{
+    max-width: 70vw;
+}
+.stylecarinha{
+    font-size: 34px;
+    color: #FE7737;
+}
